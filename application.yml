@@ -35,7 +35,7 @@ server:
   servlet:
     context-path: /
 spring:
-  profile: test  #此环境为测试环境
+  profile: dev  
   datasource:
     #引入druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
